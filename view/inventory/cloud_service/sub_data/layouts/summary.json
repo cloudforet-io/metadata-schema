@@ -1,0 +1,121 @@
+{
+  "name": "Base Information",
+  "type": "item",
+  "options": {
+    "fields": [{
+      "key": "cloud_service_id",
+      "name": "ID"
+    },{
+      "key": "provider",
+      "name": "Provider"
+    },{
+      "key": "cloud_service_group",
+      "name": "Cloud Service Group"
+    },{
+      "key": "cloud_service_group",
+      "name": "Cloud Service Type"
+    },{
+      "key": "collection_info.state",
+      "name": "Collection State",
+      "type": "enum",
+      "options": {
+        "ACTIVE": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "image": "ic_state_active"
+            }
+          }
+        },
+        "DUPLICATED": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "image": "duplicated"
+            }
+          }
+        },
+        "DISCONNECTED": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "image": "disconnected"
+            }
+          }
+        },
+        "MANUAL": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "image": "manual"
+            }
+          }
+        }
+      }
+    },{
+      "key": "reference.resource_id",
+      "name": "Resource ID"
+    },{
+      "key": "Project",
+      "name": "project_id"
+    },{
+      "key": "collection_into.service_accounts",
+      "name": "Service Accounts",
+      "type": "list",
+      "options": {
+        "item": {
+          "type": "badge",
+          "options": {
+            "text_color": "#FFFFFF",
+            "background_color": "#858895"
+          }
+        },
+        "delimiter": "&nbsp; "
+      }
+    },{
+      "key": "collection_into.secrets",
+      "name": "Secrets",
+      "type": "list",
+      "options": {
+        "item": {
+          "type": "badge",
+          "options": {
+            "text_color": "#FFFFFF",
+            "background_color": "#858895"
+          }
+        },
+        "delimiter": "&nbsp; "
+      }
+    },{
+      "key": "collection_into.collectors",
+      "name": "Collected by",
+      "type": "list",
+      "options": {
+        "item": {
+          "type": "badge",
+          "options": {
+            "text_color": "#FFFFFF",
+            "background_color": "#858895"
+          }
+        },
+        "delimiter": "&nbsp; "
+      }
+    },{
+      "key": "created_at",
+      "name": "Created",
+      "type": "datetime",
+      "options": {
+        "source_type": "timestamp",
+        "display_format": "YYYY-MM-DD hh:mm:ss"
+      }
+    },{
+      "key": "updated_at",
+      "name": "Updated",
+      "type": "datetime",
+      "options": {
+        "source_type": "timestamp",
+        "display_format": "YYYY-MM-DD hh:mm:ss"
+      }
+    }]
+  }
+}
