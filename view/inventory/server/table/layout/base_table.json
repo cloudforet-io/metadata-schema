@@ -55,7 +55,6 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "round",
               "color": "green.500"
             }
           }
@@ -64,7 +63,6 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "round",
               "color": "yellow.500"
             }
           }
@@ -73,7 +71,6 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "round",
               "color": "red.500"
             }
           }
