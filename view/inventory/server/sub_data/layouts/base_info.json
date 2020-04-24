@@ -1,5 +1,5 @@
 {
-  "name": "Summary",
+  "name": "Base Information",
   "type": "list",
   "options": {
     "layouts": [{
@@ -62,7 +62,7 @@
               "type": "state",
               "options": {
                 "icon": {
-                  "image": "round",
+                  "image": "fas fa-ad",
                   "color": "#60B731"
                 }
               }
@@ -136,13 +136,13 @@
             }
           }
         },{
-          "key": "Project",
-          "name": "project_id"
+          "key": "project_id",
+          "name": "Project"
         },{
           "key": "provider",
           "name": "Provider"
         },{
-          "key": "collection_into.service_accounts",
+          "key": "collection_info.service_accounts",
           "name": "Service Accounts",
           "type": "list",
           "options": {
@@ -156,7 +156,7 @@
             "delimiter": "&nbsp; "
           }
         },{
-          "key": "collection_into.secrets",
+          "key": "collection_info.secrets",
           "name": "Secrets",
           "type": "list",
           "options": {
@@ -170,7 +170,7 @@
             "delimiter": "&nbsp; "
           }
         },{
-          "key": "collection_into.collectors",
+          "key": "collection_info.collectors",
           "name": "Collected by",
           "type": "list",
           "options": {

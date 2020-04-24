@@ -59,7 +59,7 @@
       "key": "Project",
       "name": "project_id"
     },{
-      "key": "collection_into.service_accounts",
+      "key": "collection_info.service_accounts",
       "name": "Service Accounts",
       "type": "list",
       "options": {
@@ -73,7 +73,7 @@
         "delimiter": "&nbsp; "
       }
     },{
-      "key": "collection_into.secrets",
+      "key": "collection_info.secrets",
       "name": "Secrets",
       "type": "list",
       "options": {
@@ -87,7 +87,7 @@
         "delimiter": "&nbsp; "
       }
     },{
-      "key": "collection_into.collectors",
+      "key": "collection_info.collectors",
       "name": "Collected by",
       "type": "list",
       "options": {
