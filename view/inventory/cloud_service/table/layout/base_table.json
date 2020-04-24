@@ -19,7 +19,7 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "duplicated"
+              "image": "ic_state_duplicated"
             }
           }
         },
@@ -27,7 +27,7 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "disconnected"
+              "image": "ic_state_disconnected"
             }
           }
         },
@@ -35,7 +35,7 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "manual"
+              "image": "ic_state_manual"
             }
           }
         }

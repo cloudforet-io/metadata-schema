@@ -25,7 +25,7 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "duplicated"
+              "image": "ic_state_duplicated"
             }
           }
         },
@@ -33,7 +33,7 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "disconnected"
+              "image": "ic_state_disconnected"
             }
           }
         },
@@ -41,7 +41,7 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "manual"
+              "image": "ic_state_manual"
             }
           }
         }
@@ -56,7 +56,7 @@
           "options": {
             "icon": {
               "image": "round",
-              "color": "#60B731"
+              "color": "green.500"
             }
           }
         },
@@ -65,7 +65,7 @@
           "options": {
             "icon": {
               "image": "round",
-              "color": "#FFCE02"
+              "color": "yellow.500"
             }
           }
         },
@@ -74,7 +74,7 @@
           "options": {
             "icon": {
               "image": "round",
-              "color": "#FF3700"
+              "color": "red.500"
             }
           }
         },
@@ -82,8 +82,8 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "round",
-              "color": "#FF3700"
+              "image": "fas fa-times",
+              "color": "red.500"
             }
           }
         }
@@ -99,29 +99,29 @@
         "VM": {
           "type": "badge",
           "options": {
-            "color": "#FFFFFF",
-            "background_color": "#0080FB"
+            "color": "white",
+            "background_color": "blue.500"
           }
         },
         "BAREMETAL": {
           "type": "badge",
           "options": {
-            "color": "#FFFFFF",
-            "background_color": "#2CBAA5"
+            "color": "white",
+            "background_color": "peacock.500"
           }
         },
         "HYPERVISOR": {
           "type": "badge",
           "options": {
-            "color": "#FFFFFF",
-            "background_color": "#FF3700"
+            "color": "white",
+            "background_color": "red.500"
           }
         },
         "UNKNOWN": {
           "type": "badge",
           "options": {
-            "color": "#FFFFFF",
-            "background_color": "#6B6E7B"
+            "color": "white",
+            "background_color": "gray.600"
           }
         }
       }

@@ -31,7 +31,7 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "duplicated"
+              "image": "ic_state_duplicated"
             }
           }
         },
@@ -39,7 +39,7 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "disconnected"
+              "image": "ic_state_disconnected"
             }
           }
         },
@@ -47,7 +47,7 @@
           "type": "state",
           "options": {
             "icon": {
-              "image": "manual"
+              "image": "ic_state_manual"
             }
           }
         }
@@ -66,8 +66,8 @@
         "item": {
           "type": "badge",
           "options": {
-            "text_color": "#FFFFFF",
-            "background_color": "#858895"
+            "text_color": "white",
+            "background_color": "gray.500"
           }
         },
         "delimiter": "&nbsp; "
@@ -80,8 +80,8 @@
         "item": {
           "type": "badge",
           "options": {
-            "text_color": "#FFFFFF",
-            "background_color": "#858895"
+            "text_color": "white",
+            "background_color": "gray.500"
           }
         },
         "delimiter": "&nbsp; "
@@ -94,8 +94,8 @@
         "item": {
           "type": "badge",
           "options": {
-            "text_color": "#FFFFFF",
-            "background_color": "#858895"
+            "text_color": "white",
+            "background_color": "gray.500"
           }
         },
         "delimiter": "&nbsp; "
