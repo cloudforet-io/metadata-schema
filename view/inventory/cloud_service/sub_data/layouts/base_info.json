@@ -70,7 +70,7 @@
             "background_color": "gray.500"
           }
         },
-        "delimiter": "&nbsp; "
+        "delimiter": "  "
       }
     },{
       "key": "collection_info.secrets",
@@ -84,7 +84,7 @@
             "background_color": "gray.500"
           }
         },
-        "delimiter": "&nbsp; "
+        "delimiter": "  "
       }
     },{
       "key": "collection_info.collectors",
@@ -98,7 +98,7 @@
             "background_color": "gray.500"
           }
         },
-        "delimiter": "&nbsp; "
+        "delimiter": "  "
       }
     },{
       "key": "created_at",
