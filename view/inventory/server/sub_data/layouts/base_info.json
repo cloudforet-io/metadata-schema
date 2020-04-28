@@ -146,8 +146,8 @@
             "item": {
               "type": "badge",
               "options": {
-                "text_color": "white",
-                "background_color": "gray.500"
+                "text_color": "gray.900",
+                "background_color": "gray.100"
               }
             },
             "delimiter": "  "
@@ -160,8 +160,8 @@
             "item": {
               "type": "badge",
               "options": {
-                "text_color": "white",
-                "background_color": "gray.500"
+                "text_color": "gray.900",
+                "background_color": "gray.100"
               }
             },
             "delimiter": "  "
@@ -174,8 +174,8 @@
             "item": {
               "type": "badge",
               "options": {
-                "text_color": "white",
-                "background_color": "gray.500"
+                "text_color": "gray.900",
+                "background_color": "gray.100"
               }
             },
             "delimiter": "  "
@@ -186,7 +186,7 @@
           "type": "datetime",
           "options": {
             "source_type": "timestamp",
-            "display_format": "YYYY-MM-DD hh:mm:ss"
+            "source_format": "seconds"
           }
         },{
           "key": "updated_at",
@@ -194,7 +194,7 @@
           "type": "datetime",
           "options": {
             "source_type": "timestamp",
-            "display_format": "YYYY-MM-DD hh:mm:ss"
+            "source_format": "seconds"
           }
         },{
           "key": "deleted_at",
@@ -202,7 +202,7 @@
           "type": "datetime",
           "options": {
             "source_type": "timestamp",
-            "display_format": "YYYY-MM-DD hh:mm:ss"
+            "source_format": "seconds"
           }
         }]
       }

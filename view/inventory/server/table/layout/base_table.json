@@ -126,15 +126,15 @@
       "key": "provider",
       "name": "Provider"
     },{
-      "key": "Project",
-      "name": "project_id"
+      "key": "project_id",
+      "name": "Project"
     },{
       "key": "updated_at",
       "name": "Updated",
       "type": "datetime",
       "options": {
         "source_type": "timestamp",
-        "display_format": "YYYY-MM-DD hh:mm:ss"
+        "source_format": "seconds"
       }
     }]
   }
