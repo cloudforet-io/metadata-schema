@@ -56,8 +56,8 @@
       "key": "reference.resource_id",
       "name": "Resource ID"
     },{
-      "key": "Project",
-      "name": "project_id"
+      "key": "project_id",
+      "name": "Project"
     },{
       "key": "collection_info.service_accounts",
       "name": "Service Accounts",
@@ -66,8 +66,8 @@
         "item": {
           "type": "badge",
           "options": {
-            "text_color": "white",
-            "background_color": "gray.500"
+            "text_color": "gray.900",
+            "background_color": "gray.100"
           }
         },
         "delimiter": "  "
@@ -80,8 +80,8 @@
         "item": {
           "type": "badge",
           "options": {
-            "text_color": "white",
-            "background_color": "gray.500"
+            "text_color": "gray.900",
+            "background_color": "gray.100"
           }
         },
         "delimiter": "  "
@@ -94,27 +94,27 @@
         "item": {
           "type": "badge",
           "options": {
-            "text_color": "white",
-            "background_color": "gray.500"
+            "text_color": "gray.900",
+            "background_color": "gray.100"
           }
         },
         "delimiter": "  "
       }
     },{
-      "key": "created_at",
+      "key": "created_at.seconds",
       "name": "Created",
       "type": "datetime",
       "options": {
         "source_type": "timestamp",
-        "display_format": "YYYY-MM-DD hh:mm:ss"
+        "source_format": "seconds"
       }
     },{
-      "key": "updated_at",
+      "key": "updated_at.seconds",
       "name": "Updated",
       "type": "datetime",
       "options": {
         "source_type": "timestamp",
-        "display_format": "YYYY-MM-DD hh:mm:ss"
+        "source_format": "seconds"
       }
     }]
   }

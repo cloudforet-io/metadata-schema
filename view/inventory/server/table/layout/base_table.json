@@ -129,7 +129,7 @@
       "key": "project_id",
       "name": "Project"
     },{
-      "key": "updated_at",
+      "key": "updated_at.seconds",
       "name": "Updated",
       "type": "datetime",
       "options": {

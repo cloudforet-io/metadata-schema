@@ -181,7 +181,7 @@
             "delimiter": "  "
           }
         },{
-          "key": "created_at",
+          "key": "created_at.seconds",
           "name": "Created",
           "type": "datetime",
           "options": {
@@ -189,7 +189,7 @@
             "source_format": "seconds"
           }
         },{
-          "key": "updated_at",
+          "key": "updated_at.seconds",
           "name": "Updated",
           "type": "datetime",
           "options": {
@@ -197,7 +197,7 @@
             "source_format": "seconds"
           }
         },{
-          "key": "deleted_at",
+          "key": "deleted_at.seconds",
           "name": "Deleted",
           "type": "datetime",
           "options": {
