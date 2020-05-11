@@ -113,8 +113,8 @@
         }
       }
     },{
-      "key": "os_type",
-      "name": "OS Type"
+      "key": "data.os.os_distro",
+      "name": "OS"
     },{
       "key": "nics",
       "name": "Public IP",
