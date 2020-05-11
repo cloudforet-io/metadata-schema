@@ -66,8 +66,7 @@
         "item": {
           "type": "badge",
           "options": {
-            "text_color": "gray.900",
-            "background_color": "gray.100"
+            "outline_color": "violet.500"
           }
         },
         "delimiter": "  "
@@ -80,8 +79,7 @@
         "item": {
           "type": "badge",
           "options": {
-            "text_color": "gray.900",
-            "background_color": "gray.100"
+            "outline_color": "violet.500"
           }
         },
         "delimiter": "  "
@@ -93,10 +91,9 @@
       "options": {
         "item": {
           "type": "badge",
-          "options": {
-            "text_color": "gray.900",
-            "background_color": "gray.100"
-          }
+            "options": {
+              "outline_color": "violet.500"
+            }
         },
         "delimiter": "  "
       }
