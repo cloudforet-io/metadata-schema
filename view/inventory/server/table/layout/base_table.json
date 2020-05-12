@@ -12,7 +12,7 @@
       "key": "data.compute.az",
       "name": "Availability Zone"
     },{
-      "key": "state",
+      "key": "data.compute.instance_state",
       "name": "Instance State",
       "type": "enum",
       "options": {
@@ -127,7 +127,31 @@
       }
     },{
       "key": "provider",
-      "name": "Provider"
+      "name": "Provider",
+      "type": "enum",
+      "options": {
+        "aws": {
+          "type": "badge",
+          "options": {
+            "color": "white",
+            "background_color": "#FF9900"
+          }
+        },
+        "google_cloud": {
+          "type": "badge",
+          "options": {
+            "color": "white",
+            "background_color": "#4285F4"
+          }
+        },
+        "azure": {
+          "type": "badge",
+          "options": {
+            "color": "white",
+            "background_color": "#00BCF2"
+          }
+        }
+      }
     },{
       "key": "data.compute.account_id",
       "name": "Account ID"
