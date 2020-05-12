@@ -6,8 +6,74 @@
       "key": "name",
       "name": "Name"
     },{
-      "key": "primary_ip_address",
-      "name": "Primary IP"
+      "key": "data.compute.instance_type",
+      "name": "Instance Type"
+    },{
+      "key": "data.compute.az",
+      "name": "Availability Zone"
+    },{
+      "key": "state",
+      "name": "Instance State",
+      "type": "enum",
+      "options": {
+        "pending": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "color": "yellow.500"
+            }
+          }
+        },
+        "rebooting": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "color": "yellow.500"
+            }
+          }
+        },
+        "shutting-down": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "color": "yellow.500"
+            }
+          }
+        },
+        "stopping": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "color": "yellow.500"
+            }
+          }
+        },
+        "running": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "color": "green.500"
+            }
+          }
+        },
+        "stopped": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "color": "red.500"
+            }
+          }
+        },
+        "terminated": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "image": "fas fa-times",
+              "color": "red.500"
+            }
+          }
+        }
+      }
     },{
       "key": "collection_info.state",
       "name": "Collection State",
@@ -47,84 +113,24 @@
         }
       }
     },{
-      "key": "state",
-      "name": "Life Cycle",
-      "type": "enum",
-      "options": {
-        "INSERVICE": {
-          "type": "state",
-          "options": {
-            "icon": {
-              "color": "green.500"
-            }
-          }
-        },
-        "MAINTENANCE": {
-          "type": "state",
-          "options": {
-            "icon": {
-              "color": "yellow.500"
-            }
-          }
-        },
-        "CLOSED": {
-          "type": "state",
-          "options": {
-            "icon": {
-              "color": "red.500"
-            }
-          }
-        },
-        "DELETED": {
-          "type": "state",
-          "options": {
-            "icon": {
-              "image": "fas fa-times",
-              "color": "red.500"
-            }
-          }
-        }
-      }
+      "key": "data.os.os_distro",
+      "name": "OS"
     },{
-      "key": "os_type",
-      "name": "OS Type"
-    },{
-      "key": "server_type",
-      "name": "Server Type",
-      "type": "enum",
+      "key": "nics",
+      "name": "Public IP",
+      "type": "list",
       "options": {
-        "VM": {
-          "type": "badge",
-          "options": {
-            "color": "white",
-            "background_color": "blue.500"
-          }
+        "item": {
+          "type": "text"
         },
-        "BAREMETAL": {
-          "type": "badge",
-          "options": {
-            "color": "white",
-            "background_color": "peacock.500"
-          }
-        },
-        "HYPERVISOR": {
-          "type": "badge",
-          "options": {
-            "color": "white",
-            "background_color": "red.500"
-          }
-        },
-        "UNKNOWN": {
-          "type": "badge",
-          "options": {
-            "color": "white",
-            "background_color": "gray.600"
-          }
-        }
+        "sub_key": "public_ip_address"
       }
     },{
       "key": "provider",
       "name": "Provider"
+    },{
+      "key": "data.compute.account_id",
+      "name": "Account ID"
     },{
       "key": "project_id",
       "name": "Project"
