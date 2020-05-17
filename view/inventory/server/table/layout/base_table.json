@@ -59,6 +59,7 @@
         "stopped": {
           "type": "state",
           "options": {
+            "text_color": "red.500",
             "icon": {
               "color": "red.500"
             }
@@ -67,9 +68,9 @@
         "terminated": {
           "type": "state",
           "options": {
+            "text_color": "gray.500",
             "icon": {
-              "image": "fas fa-times",
-              "color": "red.500"
+              "color": "gray.500"
             }
           }
         }
@@ -123,7 +124,8 @@
         "item": {
           "type": "text"
         },
-        "sub_key": "public_ip_address"
+        "sub_key": "public_ip_address",
+        "sort_key": "nics.public_ip_address"
       }
     },{
       "key": "provider",

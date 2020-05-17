@@ -70,6 +70,7 @@
         "CLOSED": {
           "type": "state",
           "options": {
+            "text_color": "red.500",
             "icon": {
               "color": "red.500"
             }
@@ -78,9 +79,9 @@
         "DELETED": {
           "type": "state",
           "options": {
+            "text_color": "gray.500",
             "icon": {
-              "image": "fas fa-times",
-              "color": "red.500"
+              "color": "gray.500"
             }
           }
         }
@@ -96,29 +97,25 @@
         "VM": {
           "type": "badge",
           "options": {
-            "color": "white",
-            "background_color": "blue.500"
+            "outline_color": "indigo.500"
           }
         },
         "BAREMETAL": {
           "type": "badge",
           "options": {
-            "color": "white",
-            "background_color": "peacock.500"
+            "outline_color": "coral.600"
           }
         },
         "HYPERVISOR": {
           "type": "badge",
           "options": {
-            "color": "white",
-            "background_color": "red.500"
+            "outline_color": "peacock.500"
           }
         },
         "UNKNOWN": {
           "type": "badge",
           "options": {
-            "color": "white",
-            "background_color": "gray.600"
+            "outline_color": "gray.500"
           }
         }
       }
