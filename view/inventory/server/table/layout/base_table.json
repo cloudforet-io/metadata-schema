@@ -9,6 +9,12 @@
       "key": "data.compute.instance_type",
       "name": "Instance Type"
     },{
+      "key": "data.hardware.core",
+      "name": "Core"
+    },{
+      "key": "data.hardware.memory",
+      "name": "Memory"
+    },{
       "key": "data.compute.az",
       "name": "Availability Zone"
     },{

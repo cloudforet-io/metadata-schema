@@ -41,6 +41,33 @@
         }
       }
     },{
+      "key": "provider",
+      "name": "Provider",
+      "type": "enum",
+      "options": {
+        "aws": {
+          "type": "badge",
+          "options": {
+            "color": "white",
+            "background_color": "#FF9900"
+          }
+        },
+        "google_cloud": {
+          "type": "badge",
+          "options": {
+            "color": "white",
+            "background_color": "#4285F4"
+          }
+        },
+        "azure": {
+          "type": "badge",
+          "options": {
+            "color": "white",
+            "background_color": "#00BCF2"
+          }
+        }
+      }
+    },{
       "key": "project_id",
       "name": "Project"
     },{
