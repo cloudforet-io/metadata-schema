@@ -77,6 +77,29 @@
         }
       }
     },{
+      "key": "state",
+      "name": "Life Cycle",
+      "type": "enum",
+      "options": {
+        "INSERVICE": {
+          "type": "state",
+          "options": {
+            "icon": {
+              "color": "green.500"
+            }
+          }
+        },
+        "DELETED": {
+          "type": "state",
+          "options": {
+            "text_color": "gray.500",
+            "icon": {
+              "color": "gray.500"
+            }
+          }
+        }
+      }
+    },{
       "key": "reference.resource_id",
       "name": "Resource ID"
     },{
